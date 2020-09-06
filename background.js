@@ -12,10 +12,10 @@ function() {
         v = i[w - 1];
         return {
             l: w,
-            z: o(v, "zIndex", 1),
-            o: o(v, "opacity", 0.7),
-            c: o(v, "color", "0,160,255"),
-            n: o(v, "count", 70)
+            z: o(v, "zIndex", 0),
+            o: o(v, "opacity", 0.9),
+            c: o(v, "color", "0,120,255"),
+            n: o(v, "count", 100)
         }
     }
     function k() {
@@ -93,6 +93,3 @@ function() {
     },
     100)
 } ();
-
-
-
